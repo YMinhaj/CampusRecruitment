@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/admin_text_login"
+        android:text="@string/create_vecancy"
+        android:textSize="@dimen/title_size"
+        android:paddingBottom="@dimen/activity_horizontal_margin"/>
+
+
+    <EditText
+        android:paddingTop="30dp"
+        android:id="@+id/vec_title_edit_name"
+        android:layout_width="@dimen/edit_w"
+        android:layout_height="wrap_content"
+        android:hint="@string/vec_title"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/vec_salary"
+        android:layout_width="@dimen/edit_w"
+        android:layout_height="wrap_content"
+        android:hint="@string/vec_salary"
+        />
+    <EditText
+        android:id="@+id/vec_age_req"
+        android:layout_width="@dimen/edit_w"
+        android:layout_height="wrap_content"
+        android:hint="@string/vec_age_req"
+        />
+    <EditText
+        android:id="@+id/vec_qulification"
+        android:layout_width="@dimen/edit_w"
+        android:layout_height="wrap_content"
+        android:hint="@string/vec_qulif"
+        />
+    <EditText
+        android:id="@+id/vec_comp_name"
+        android:layout_width="@dimen/edit_w"
+        android:layout_height="wrap_content"
+        android:hint="@string/vec_comp_name"
+        />
+
+    <Button
+        android:onClick="createVec"
+        android:id="@+id/frg_vec_create"
+        android:layout_width="@dimen/edit_w"
+        android:layout_height="wrap_content"
+        android:text="@string/create"/>
+
+</LinearLayout>

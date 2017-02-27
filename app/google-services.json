@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "1045070558410",
+    "firebase_url": "https://shoppingfirebase-99540.firebaseio.com",
+    "project_id": "shoppingfirebase-99540",
+    "storage_bucket": "shoppingfirebase-99540.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045070558410:android:3e0f18918c502787",
+        "android_client_info": {
+          "package_name": "com.example.zar.shoppinglistplusfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045070558410-o8nb3pmjhsrp3lgembsu53bsvefiqo8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzlmY2_1zPjGdtQssvC7BLifkRW9K3iy0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045070558410:android:7db32c97a60f5e09",
+        "android_client_info": {
+          "package_name": "com.example.zar.campusrecruitment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045070558410-o8nb3pmjhsrp3lgembsu53bsvefiqo8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzlmY2_1zPjGdtQssvC7BLifkRW9K3iy0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

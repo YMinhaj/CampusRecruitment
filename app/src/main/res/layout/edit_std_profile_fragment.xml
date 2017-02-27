@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/admin_text_login"
+        android:text="@string/your_profile"
+        android:textSize="@dimen/title_size"
+        android:paddingBottom="@dimen/activity_horizontal_margin"/>
+
+
+    <EditText
+        android:paddingTop="30dp"
+        android:id="@+id/std_pro_edit_name"
+        android:layout_width="@dimen/edit_w"
+        android:layout_height="wrap_content"
+        android:hint="@string/your_name"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/std_pro_edit_experties"
+        android:layout_width="@dimen/edit_w"
+        android:layout_height="wrap_content"
+        android:hint="@string/std_pro_experties"
+        />
+    <EditText
+        android:id="@+id/std_pro_age"
+        android:layout_width="@dimen/edit_w"
+        android:layout_height="wrap_content"
+        android:hint="@string/std_pro_age"
+        />
+    <EditText
+        android:id="@+id/std_pro_qulification"
+        android:layout_width="@dimen/edit_w"
+        android:layout_height="wrap_content"
+        android:hint="@string/vec_qulif"
+        />
+    <EditText
+        android:id="@+id/std_pro_dept"
+        android:layout_width="@dimen/edit_w"
+        android:layout_height="wrap_content"
+        android:hint="@string/std_edit_dept"
+        />
+
+    <Button
+
+        android:onClick="updatePro"
+        android:id="@+id/update_std"
+        android:layout_width="@dimen/edit_w"
+        android:layout_height="wrap_content"
+        android:text="@string/update"/>
+
+</LinearLayout>
